@@ -16,4 +16,4 @@ VOLUME ["/usr/jexus/siteconf", "/usr/jexus/log", "/var/www"]
 # Define workdir
 WORKDIR /usr/jexus
 # Define startup command;
-COMMAND ["/usr/jexus/jwss"]
+CMD ["/usr/jexus/jwss"]
